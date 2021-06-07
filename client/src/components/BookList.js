@@ -17,6 +17,7 @@ class BookList extends Component {
     if(data.loading) {
       return (<div>Loading Books...</div>);
     } else {
+      console.log(data)
       return data.books.map(book => {
         return (
           <li key={ book.id } onClick={e => { this.setState({ selected: book.id }) }}>{ book.name }</li>

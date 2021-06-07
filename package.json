@@ -1,0 +1,12 @@
+{
+  "name": "GraphQL Tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+    "dev": "cd nodemon app"
+  },
+  "author": "Harshdeep Kanhai <harshdeepkanhai@gmail.com>",
+  "license": "ISC"
+}

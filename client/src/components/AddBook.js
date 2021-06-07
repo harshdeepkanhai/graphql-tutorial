@@ -40,12 +40,12 @@ class AddBook extends Component {
             
             <div className="field">
                 <label>Book name:</label>
-                <input type="text" onChange={ e => this.setState({ name: e.target.value })} />
+                <input type="text" onChange={ e => this.setState({ name: e.target.value })} required/>
             </div>
 
             <div className="field">
                 <label>Genre:</label>
-                <input type="text" onChange={ e => this.setState({ genre: e.target.value })}/>
+                <input type="text" onChange={ e => this.setState({ genre: e.target.value })} required/>
             </div>
 
             <div className="field">

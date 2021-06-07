@@ -9,7 +9,7 @@ const app = express();
 // allow cross-origin requests
 app.use(cors());
 
-mongoose.connect('mongodb://harsh:foobar123@ds129532.mlab.com:29532/gql-hdk', { useNewUrlParser: true });
+mongoose.connect('mongodb+srv://admin:admin@kanhai-cluster.fio7e.mongodb.net/graphql?authSource=admin&replicaSet=atlas-13lpv8-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true', { useNewUrlParser: true });
 mongoose.connection.once('open', () => {
     console.log(`connected to database`);
 })
